@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  postgresql:
+    image: postgres:12-alpine
+    ports:
+      - '3300:5432'
+    environment:
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=9mREsvXDsA9Gk89Ef
+      - POSTGRES_DB=app
